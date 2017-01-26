@@ -25,7 +25,6 @@ resource "aws_s3_bucket" "backup" {
             storage_class = "GLACIER"
         }
         expiration {
-            # Keep backups for 3 years
             days = "${var.aws_bucket_expiration_after_days}"
         }
     }
