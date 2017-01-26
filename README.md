@@ -10,7 +10,7 @@ $ terraform apply github.com/keksilabs/terraform-examples/s3-bucket-for-backups
 ```
 
 ## Maintainers
-@onnimonni
+[@onnimonni](https://github.com/onnimonni)
 
 ## License
 MIT
