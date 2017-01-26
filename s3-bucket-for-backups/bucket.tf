@@ -7,10 +7,6 @@ resource "aws_s3_bucket" "backup" {
     acl = "private"
     region = "${var.aws_region}"
 
-    tags {
-        Name = "Flynn Production Backups"
-        Environment = "Prod"
-    }
     versioning {
         enabled = true
     }
